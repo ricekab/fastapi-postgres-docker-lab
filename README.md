@@ -49,11 +49,13 @@ docker-compose run --rm app bash
 
 3. Access FastAPI
 
-The FastAPI endpoint should be accessible using http://127.0.0.1:5000/
+The FastAPI endpoint should be accessible using http://127.0.0.1:5000
 
 The two airports we added should be visible at http://127.0.0.1:5000/airport
 
 Similarly, the single airport endpoints should work: http://127.0.0.1:5000/airport/EBAW
+
+Swagger docs are accessible at http://127.0.0.1:5000/docs
 
 4. (Optional) View database contents using adminer
 
